@@ -6,7 +6,7 @@ function takeANumber(katzDeliLine,name){
 }
 
 function nowServing(katzDeliLine){
-  if(katzDeliLine > 0){
+  if(katzDeliLine.length > 0){
     return `Currently serving ${katzDeliLine[0]}.`
      katzDeliLine.shift()
   } else {
@@ -15,7 +15,7 @@ function nowServing(katzDeliLine){
 }
 
 function currentLine(katzDeliLine){
-  if (katzDeliLine > 0){
+  if (katzDeliLine.length > 0){
     var newArray=[];
     for (var i=0; i<katzDeliLine.length; i++){
     return newArray.push(`${i+1}. katzDeliLine[i]`)
