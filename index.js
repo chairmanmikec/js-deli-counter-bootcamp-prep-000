@@ -10,3 +10,7 @@ function nowServing(katzDeliLine){
     return 'There is nobody waiting to be served!'
   }
 }
+
+function currentLine(katzDeliLine){
+  return `The line is currently: 1.${katzDeliLine.d}`
+}
