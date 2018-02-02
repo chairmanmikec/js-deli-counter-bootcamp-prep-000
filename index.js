@@ -1,6 +1,6 @@
 function takeANumber(katzDeliLine,name){
   katzDeliLine.push(name);
-  return katzDeliLine.length
+  return `Welcome, ${name}. You are number ${katzDeliLine.length} in line.`
 }
 
 function nowServing(katzDeliLine){
@@ -12,5 +12,9 @@ function nowServing(katzDeliLine){
 }
 
 function currentLine(katzDeliLine){
-  return `The line is currently: 1.${katzDeliLine.d}`
+  if (katzDeliLine>0){
+    for (i=0;i<katzDeliLine.length; i++ ){
+      return `
+    }
+  } else
 }
